@@ -1,0 +1,106 @@
+/* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales para el cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Azul claro */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #1e90ff; /* Azul fuerte */
+    margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Estilos para los grupos de campos */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para los inputs y textarea */
+input, textarea {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+input:focus, textarea:focus {
+    border-color: #1e90ff; /* Azul fuerte en el foco */
+    outline: none;
+}
+
+/* Estilo para el botón */
+button {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4682b4; /* Azul más oscuro */
+}
+
+/* Estilos para la lista de propiedades */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+li button {
+    background-color: #32cd32;
+    margin-right: 10px;
+}
+
+li button:hover {
+    background-color: #228b22;
+}
+
+hr {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+}

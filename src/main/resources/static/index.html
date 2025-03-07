@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Propiedades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Gestión de Propiedades</h1>
+
+    <!-- Formulario para agregar o actualizar propiedades -->
+    <form id="propertyForm">
+        <div class="form-group">
+            <label for="address">Dirección:</label>
+            <input type="text" id="address" required>
+        </div>
+
+        <div class="form-group">
+            <label for="price">Precio:</label>
+            <input type="number" id="price" required>
+        </div>
+
+        <div class="form-group">
+            <label for="size">Tamaño:</label>
+            <input type="number" id="size" required>
+        </div>
+
+        <div class="form-group">
+            <label for="description">Descripción:</label>
+            <textarea id="description" required></textarea>
+        </div>
+
+        <button type="submit">Agregar Propiedad</button>
+    </form>
+
+    <!-- Lista de propiedades -->
+    <h2>Propiedades Agregadas</h2>
+    <ul id="propertyList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
